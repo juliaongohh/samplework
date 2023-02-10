@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Raleway';font-size: 60px;
+    color: #fffef2;
+    text-align: center;
+}
+html{
+    background-color: #fffef2;
+}
+
+header{
+    background-color: #e8cebf;
+    height: 150px;
+    align-content: center;
+}
+
+h3{
+    font-family: 'Playfair Display';
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.links{
+    margin-left: 40%;
+}

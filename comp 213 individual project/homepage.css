@@ -1,0 +1,98 @@
+h1 {
+    font-family: 'Raleway';font-size: 60px;
+    color: #fffef2;
+    text-align: center;
+}
+html{
+    background-color: #fffef2;
+}
+
+header{
+    background-color: #e8cebf;
+    height: 150px;
+    align-content: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #D1C9B5;
+    overflow: hidden;
+    border-radius: 30px; 
+    margin: 1%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Quicksand';font-size: 22px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #fffef2;
+    color: #e8cebf;
+  }
+  
+
+.wrapper {
+    border: #d38634 double 10px;
+    
+    margin-top: 5%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin-left: 25%;
+  }
+  .name{
+    font-family: 'Playfair Display';font-size: 30px;
+    margin-bottom: 1%;
+    color:#e8cebf
+  }
+  .subtitle{
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0%;
+
+  }
+  .mission
+  {
+    font-family: 'Playfair Display';font-size: 22px;
+  }
+  .bio{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .feedback{
+    font-family: 'Playfair Display';font-size: 22px;
+  }
+  li{
+      font-style: italic;
+      font-weight: 200;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .left, .right {
+    
+    
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left {
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+      margin-top: 3%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      text-align: center;
+  }
+  

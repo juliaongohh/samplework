@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="form">
+        <header>
+            <br>
+            <h1>Contact Form</h1>
+        </header>
+        <p>Please accomplish this form to be submitted by email to the agent's email address. Thank you.</p>
+        <form action="mailto:jongoh@my.centennialcollege.ca" method="post">
+        <label for="firstname">First Name:&nbsp;</label>
+        <input type="text" name="firstname" id="firstname">
+        <br><br>
+        <label for="lastname">Last Name:&nbsp;</label>
+        <input type="text" name="lastname" id="lastname">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" name="phone" id="phone">
+        <br><br>
+
+        <label for="email">Email Address:&nbsp;</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+    
+        <label for="preference">Preference&nbsp;</label>
+        <input type="radio" name="preference" id="preference" value="house"> House
+        <input type="radio" name="preference" id="preference" value="winter"> Condominium 
+        <br><br>
+    
+        
+        <label for="bedrooms">Number of Bedrooms</label>
+        <input type="number" name="bedrooms" id="bedrooms">
+        
+
+        <label for="bathrooms">Number of Bathrooms</label>
+        <input type="number" name="bathrooms" id="bathrooms">
+        <br><br>
+    
+        <label for="price">Price Range&nbsp;</label>
+        <input type="text" name="price" id="price">
+    
+        <h3>Any Other Comments</h3>
+        <br>
+        <label for="Other">Other: </label>
+        <input type="text" name="Other" id="Other">
+        <br>
+        <br>
+    
+        <input type="submit"> <input type="reset">
+        <p><i>Thank you! We will contact you shortly!</i></p>
+        <p><i><a href="homepage.html">Back to Home Page</a></i></p>
+    
+    </form>
+    </div>
+    
+</body>
+</html>
